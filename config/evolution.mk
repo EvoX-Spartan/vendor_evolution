@@ -17,9 +17,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Evolution X packages
 PRODUCT_PACKAGES += \
-    EvoEgg \
-    GameSpace \
-    OmniStyle
+    EvoEgg
+#    GameSpace \
+#    OmniStyle
 #    OmniJaws \
 
 PRODUCT_PACKAGES += \

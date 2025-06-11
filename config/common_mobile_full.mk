@@ -6,7 +6,7 @@ PRODUCT_SIZE := full
 # Apps
 PRODUCT_PACKAGES += \
     Profiles \
-    Seedvault
+#    Seedvault
 
 ifeq ($(WITH_GMS),false)
 PRODUCT_PACKAGES += \
@@ -16,10 +16,10 @@ PRODUCT_PACKAGES += \
     Twelve
 endif
 
-ifneq ($(PRODUCT_NO_CAMERA),true)
-PRODUCT_PACKAGES += \
-    Aperture
-endif
+#ifneq ($(PRODUCT_NO_CAMERA),true)
+#PRODUCT_PACKAGES += \
+#    Aperture
+#endif
 
 ifeq ($(WITH_GMS),false)
 ifneq ($(TARGET_EXCLUDES_AUDIOFX),true)
