@@ -22,9 +22,13 @@ endif
 # Apps
 PRODUCT_PACKAGES += \
     AvatarPicker \
-    Backgrounds \
-    Glimpse \
     LatinIME
+
+ifeq ($(WITH_GMS),false)
+PRODUCT_PACKAGES += \
+    Backgrounds \
+    Glimpse
+endif
 
 # Charger
 PRODUCT_PACKAGES += \
