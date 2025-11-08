@@ -30,6 +30,12 @@ PRODUCT_PACKAGES += \
     UpdaterVanillaOverlay
 endif
 
+# LMO packages
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+#    LMOSystemUIClock
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
