@@ -371,7 +371,7 @@
         <item>device_personalization_services/WallpaperEffects__enable_cinematic_effect=true</item>
         <item>device_personalization_services/WallpaperEffects__enable_cinematic_mdd=true</item>
         <item>device_personalization_services/WallpaperEffects__enable_foreground_model_download=true</item>
-        <item>device_personalization_services/WallpaperEffects__enable_person_segment_tpu=true</item>
+        <item>device_personalization_services/WallpaperEffects__enable_person_segment_tpu=false</item>
         <item>device_personalization_services/WallpaperEffects__return_texturedmesh_with_error_status=true</item>
         <item>device_personalization_services/WallpaperEffects__use_gpu=true</item>
         <item>device_personalization_services/WallpaperEffects__use_tpu=false</item>
