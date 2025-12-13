@@ -14,12 +14,6 @@
      limitations under the License.
 -->
 <config>
-    <component-override package="com.android.vending">
-        <component class=".systemupdateactivity.SettingsSecurityEntryPoint" enabled="false" />
-        <component class=".systemupdateactivity.SystemUpdateActivity" enabled="false" />
-        <component class=".systemupdate.SystemUpdateSettingsContentProvider" enabled="false" />
-    </component-override>
-
     <component-override package="com.google.android.as">
         <component class="com.google.intelligence.sense.ambientmusic.history.HistoryContentProvider" enabled="false" />
         <component class="com.google.intelligence.sense.ambientmusic.history.HistoryActivity" enabled="false" />
