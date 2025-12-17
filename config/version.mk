@@ -7,7 +7,7 @@ PRODUCT_VERSION_MINOR = 0
 >>>>>>> e9cd2fa9a (lineage: Initial Evolution X rebrand)
 
 # Increase EVO Version with each major release.
-EVO_VERSION_BASE := 11.5
+EVO_VERSION_BASE := 11.5.1
 EVO_BUILD_TYPE ?= Unofficial
 
 ifeq ($(EVO_BUILD_TYPE),Official)
