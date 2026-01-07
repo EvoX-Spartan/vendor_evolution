@@ -20,8 +20,8 @@ PRODUCT_PACKAGES += \
     BatteryStatsViewer \
     EvoEgg \
     GameSpace \
-    OmniJaws \
     OmniStyle
+#    OmniJaws \
 
 PRODUCT_PACKAGES += \
     Updater
